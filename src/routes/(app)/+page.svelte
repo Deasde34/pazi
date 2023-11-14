@@ -1,5 +1,4 @@
 
-
 <section class="py-5 border-bottom" id="features">
     <div class="container px-5 my-5">
         <div class="row gx-5">
@@ -293,10 +292,6 @@
         </div>
     </div>
 </section>
-<!-- Footer-->
-<footer class="py-5 bg-dark">
-    <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-</footer>
 <!-- Bootstrap core JS-->
 
 <!-- Core theme JS-->
