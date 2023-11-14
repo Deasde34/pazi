@@ -37,7 +37,7 @@
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link py-3 border-bottom rounded-0" href="/"
+      <a class="nav-link py-3 border-bottom rounded-0" href="/calendario"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
