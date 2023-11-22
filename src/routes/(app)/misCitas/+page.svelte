@@ -4,7 +4,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { createClient } from '@supabase/supabase-js';
-  import type { DatosType } from '../../types/tipos';
+  import type { DatosType } from '../../../types/tipos';
 
   let datos: DatosType[] = [];
 
