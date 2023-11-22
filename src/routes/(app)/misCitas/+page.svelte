@@ -59,7 +59,7 @@
     <ul class="citas-list">
       {#each datos as dato (dato.nombre)}
         <li class="cita-item"><b>Paciente: </b>{dato.nombre} {dato.apellido}</li>
-        <li class="cita-item"><b>Hora: </b>{dato.hora}</li>
+        <li class="cita-item"><b>Hora: </b>{dato.hora} PM</li>
         <li class="cita-item"><b>Fecha: </b>{dato.fecha}</li>
         <li class="cita-item"><b>Atiende: </b>María Broch</li>
         <li class="cita-item"><b>Área: </b>{dato.profesional}</li>

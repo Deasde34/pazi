@@ -14,7 +14,7 @@
 >
   <a
     class="text-center link-body-emphasis d-block p-3 text-decoration-none border-bottom"
-    href="/"
+    href="#"
     title=""
     data-bs-toggle="tooltip"
     data-bs-placement="right"

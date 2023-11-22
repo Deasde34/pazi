@@ -1,35 +1,5 @@
 <section class="py-5 border-bottom" id="features">
-    <div class="container px-5 my-5">
-        <div class="row">
-            <div class="col-8" />
-            <h1 class=" mb-5 text-center">Visión y Propuesta de valor</h1>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                        <h4 class="text-center">¿QUÉ VAMOS A HACER?</h4>
-                        <p>Transformar la salud laboral.</p>
-                    </div>
-                    <div class="col">
-                        <h4 class="text-center">¿POR QUÉ?</h4>
-                        <p>
-                            Pazi aporta a sus clientes un alivio a sus
-                            frustraciones.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <h4 class="text-center">¿POR QUÉ AHORA?</h4>
-                        <p>
-                            A raíz de la pandemia, de las diversas crisis
-                            económicas y sociales, nace la necesidad de
-                            proporcionar un espacio seguro y accesible donde los
-                            empleados puedan acceder a recursos y herramientas
-                            que les ayuden a mejorar su bienestar emocional.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </section>
 <!-- Pricing section-->
 <section class="bg-light py-5 border-bottom">
@@ -37,7 +7,7 @@
         <div class="text-center mb-5">
             <h2 class="fw-bolder">Contratar Servicio</h2>
             <p class="lead mb-0">
-                prometemos no tener inconvenientes con los precios
+                Calidad garantizada
             </p>
         </div>
         <div class="row gx-5 justify-content-center">
@@ -72,13 +42,13 @@
                                 <h3 class="title">Individual</h3>
                                 <div class="price-value">
                                     $349.00
-                                    <span class="month">/month</span>
+                                    <span class="month">/mensual</span>
                                 </div>
                                 <ul class="pricing-content">
                                     <li>1 llave</li>
                                     <li>Acceso instantaneo a plataforma</li>
                                     <li>Planes de salud</li>
-                                    <li>flexibilidad de asesoramiento</li>
+                                    <li>Flexibilidad de asesoramiento</li>
                                     <li class="disable">
                                         <i class="fa fa-times" />
                                     </li>
@@ -93,14 +63,14 @@
                                 <h3 class="title">Paquete Empresa</h3>
                                 <div class="price-value">
                                     $59,999
-                                    <span class="month">/Semestre</span>
+                                    <span class="month">/Semestral</span>
                                 </div>
                                 <ul class="pricing-content">
                                     <li>50 llaves</li>
                                     <li>Acceso instantaneo a plataforma</li>
                                     <li>Estadisticas de su empresa</li>
-                                    <li>planes de salud</li>
-                                    <li>flexibilidad de asesoramiento</li>
+                                    <li>Planes de salud</li>
+                                    <li>Flexibilidad de asesoramiento</li>
                                 </ul>
                                 <a href="/auth/" class="pricingTable-signup"
                                     >Contratar</a
@@ -224,8 +194,8 @@
 <section class="py-5 border-bottom">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bolder">Customer testimonials</h2>
-            <p class="lead mb-0">Our customers love working with us</p>
+            <h2 class="fw-bolder">Testimonios de nuestros clientes</h2>
+            <p class="lead mb-0">Nuestros clientes adoran trabajar con nosotros</p>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">
@@ -240,13 +210,10 @@
                             </div>
                             <div class="ms-4">
                                 <p class="mb-1">
-                                    Thank you for putting together such a great
-                                    product. We loved working with you and the
-                                    whole team, and we will be recommending you
-                                    to others!
+                                    Quiero expresar mi profundo agradecimiento a Pazi, la aplicación que ha cambiado mi vida de una manera que nunca pensé posible. Como alguien que ha lidiado con el estrés y la ansiedad durante años, encontrar una herramienta que realmente hiciera la diferencia fue un verdadero regalo.
                                 </p>
                                 <div class="small text-muted">
-                                    - Client Name, Location
+                                    - Esther Ruiz, México
                                 </div>
                             </div>
                         </div>
@@ -263,13 +230,10 @@
                             </div>
                             <div class="ms-4">
                                 <p class="mb-1">
-                                    The whole team was a huge help with putting
-                                    things together for our company and brand.
-                                    We will be hiring them again in the near
-                                    future for additional work!
+                                    El soporte de los profesionales de la salud mental a través de la plataforma es invaluable. Poder conectarme con un terapeuta cuando lo necesitaba, directamente desde la aplicación, agregó un nivel adicional de apoyo que marcó la diferencia en mi proceso de curación.
                                 </p>
                                 <div class="small text-muted">
-                                    - Client Name, Location
+                                    - Carlos Guzmán, México
                                 </div>
                             </div>
                         </div>
@@ -288,8 +252,8 @@
             >
                 <i class="bi bi-envelope" />
             </div>
-            <h2 class="fw-bolder">Get in touch</h2>
-            <p class="lead mb-0">We'd love to hear from you</p>
+            <h2 class="fw-bolder">Contáctanos</h2>
+            <p class="lead mb-0">Nos gustaría escuchar de ti</p>
         </div>
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-6">
@@ -310,7 +274,7 @@
                             placeholder="Enter your name..."
                             data-sb-validations="required"
                         />
-                        <label for="name">Full name</label>
+                        <label for="name">Nombre completo</label>
                         <div
                             class="invalid-feedback"
                             data-sb-feedback="name:required"
@@ -327,7 +291,7 @@
                             placeholder="name@example.com"
                             data-sb-validations="required,email"
                         />
-                        <label for="email">Email address</label>
+                        <label for="email">Correo electrónico</label>
                         <div
                             class="invalid-feedback"
                             data-sb-feedback="email:required"
@@ -350,7 +314,7 @@
                             placeholder="(123) 456-7890"
                             data-sb-validations="required"
                         />
-                        <label for="phone">Phone number</label>
+                        <label for="phone">Número telefónico</label>
                         <div
                             class="invalid-feedback"
                             data-sb-feedback="phone:required"
@@ -367,7 +331,7 @@
                             style="height: 10rem"
                             data-sb-validations="required"
                         />
-                        <label for="message">Message</label>
+                        <label for="message">Mensaje</label>
                         <div
                             class="invalid-feedback"
                             data-sb-feedback="message:required"
@@ -400,10 +364,43 @@
                         <button
                             class="btn btn-primary btn-lg disabled"
                             id="submitButton"
-                            type="submit">Submit</button
+                            type="submit">Enviar</button
                         >
                     </div>
                 </form>
+                
+            </div>
+            <div class="container px-5 my-5">
+                <div class="row">
+                    <div class="col-8" />
+                    <br><br><br><br><br><br>
+                    <h1 class=" mb-5 text-center">Visión y Propuesta de valor</h1>
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="text-center">¿QUÉ VAMOS A HACER?</h4>
+                                <p>Transformar la salud laboral.</p>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-center">¿POR QUÉ?</h4>
+                                <p>
+                                    Pazi aporta a sus clientes un alivio a sus
+                                    frustraciones.
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-center">¿POR QUÉ AHORA?</h4>
+                                <p>
+                                    A raíz de la pandemia, de las diversas crisis
+                                    económicas y sociales, nace la necesidad de
+                                    proporcionar un espacio seguro y accesible donde los
+                                    empleados puedan acceder a recursos y herramientas
+                                    que les ayuden a mejorar su bienestar emocional.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
