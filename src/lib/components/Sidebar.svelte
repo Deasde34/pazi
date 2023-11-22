@@ -86,7 +86,7 @@
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link py-3 border-bottom rounded-0" href="/"
+      <a class="nav-link py-3 border-bottom rounded-0" href="/misCitas"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
@@ -102,7 +102,7 @@
       >
     </li>
     <li class="nav-item">
-      <a class="nav-link py-3 border-bottom rounded-0" href="/"
+      <a class="nav-link py-3 border-bottom rounded-0" href="/perfil"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
@@ -138,7 +138,7 @@
       class="dropdown-menu shadow text-small"
       data-popper-placement="top-start"
     >
-      <a class="dropdown-item" href="/">New project...</a><a
+      <a
         class="dropdown-item"
         href="/">Settings</a
       ><a class="dropdown-item" href="/">Profile</a>
