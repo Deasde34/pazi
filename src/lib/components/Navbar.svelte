@@ -1,6 +1,13 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container">
-    <a class="navbar-brand" href="/">Navbar</a>
+    <a class="navbar-brand" href="/">
+      <img
+        width="70"
+        height="70"
+        src="/img/Pazi%20mindfit%20no%20bg.png"
+        alt="Pazi"
+      />
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -18,7 +25,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/">Link</a>
+          <a class="nav-link" href="/">Sobre nosotros</a>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -28,26 +35,25 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
+            Soporte
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/">Action</a></li>
-            <li><a class="dropdown-item" href="/">Another action</a></li>
+            <li><a class="dropdown-item" href="/">formulario</a></li>
+            <li><a class="dropdown-item" href="/">contacto</a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="/">Something else here</a></li>
+            <li><a class="dropdown-item" href="/">FAQ</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <div class="d-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/auth/login">Sign in</a>
+            <a class="nav-link" aria-current="page" href="/auth/"
+              >Sign in</a
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/auth/">Sign up</a>
+            <a class="nav-link" aria-current="page" href="/auth/register">Sign up</a>
           </li>
         </ul>
       </div>

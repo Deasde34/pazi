@@ -1,33 +1,32 @@
-
 <section class="py-5 border-bottom" id="features">
     <div class="container px-5 my-5">
-        <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a class="text-decoration-none" href="#!">
-                    Call to action
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a class="text-decoration-none" href="#!">
-                    Call to action
-                    <i class="bi bi-arrow-right"></i>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                <h2 class="h4 fw-bolder">Featured title</h2>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a class="text-decoration-none" href="#!">
-                    Call to action
-                    <i class="bi bi-arrow-right"></i>
-                </a>
+        <div class="row">
+            <div class="col-8" />
+            <h1 class=" mb-5 text-center">Visión y Propuesta de valor</h1>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h4 class="text-center">¿QUÉ VAMOS A HACER?</h4>
+                        <p>Transformar la salud laboral.</p>
+                    </div>
+                    <div class="col">
+                        <h4 class="text-center">¿POR QUÉ?</h4>
+                        <p>
+                            Pazi aporta a sus clientes un alivio a sus
+                            frustraciones.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h4 class="text-center">¿POR QUÉ AHORA?</h4>
+                        <p>
+                            A raíz de la pandemia, de las diversas crisis
+                            económicas y sociales, nace la necesidad de
+                            proporcionar un espacio seguro y accesible donde los
+                            empleados puedan acceder a recursos y herramientas
+                            que les ayuden a mejorar su bienestar emocional.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -36,63 +35,88 @@
 <section class="bg-light py-5 border-bottom">
     <div class="container px-5 my-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bolder">Pay as you grow</h2>
-            <p class="lead mb-0">With our no hassle pricing plans</p>
+            <h2 class="fw-bolder">Contratar Servicio</h2>
+            <p class="lead mb-0">
+                prometemos no tener inconvenientes con los precios
+            </p>
         </div>
         <div class="row gx-5 justify-content-center">
-            <!-- Pricing card free-->
-            <div class="col-lg-6 col-xl-4">
-                <div class="card mb-5 mb-xl-0">
-                    <div class="card-body p-5">
-                        <div class="small text-uppercase fw-bold text-muted">Free</div>
-                        <div class="mb-3">
-                            <span class="display-4 fw-bold">$0</span>
-                            <span class="text-muted">/ mo.</span>
+            <div class="demo">
+                <div class="container">
+                    <div class="row">
+                        <!--                         <div class="col-md-4 col-sm-6">
+                            <div class="pricingTable">
+                                <h3 class="title">Standard</h3>
+                                <div class="price-value">
+                                    $10.00
+                                    <span class="month">/month</span>
+                                </div>
+                                <ul class="pricing-content">
+                                    <li>50GB Disk Space</li>
+                                    <li>50 Email Accounts</li>
+                                    <li>50GB Monthly Bandwidth</li>
+                                    <li class="disable">
+                                        <i class="fa fa-times" />
+                                    </li>
+                                    <li class="disable">
+                                        <i class="fa fa-times" />
+                                    </li>
+                                </ul>
+                                <a href="#" class="pricingTable-signup"
+                                    >Sign up</a
+                                >
+                            </div>
+                        </div> -->
+                        <div class="col-md-6 col-sm-6">
+                            <div class="pricingTable blue">
+                                <h3 class="title">Individual</h3>
+                                <div class="price-value">
+                                    $349.00
+                                    <span class="month">/month</span>
+                                </div>
+                                <ul class="pricing-content">
+                                    <li>1 llave</li>
+                                    <li>Acceso instantaneo a plataforma</li>
+                                    <li>Planes de salud</li>
+                                    <li>flexibilidad de asesoramiento</li>
+                                    <li class="disable">
+                                        <i class="fa fa-times" />
+                                    </li>
+                                </ul>
+                                <a href="/auth/" class="pricingTable-signup"
+                                    >Contratar</a
+                                >
+                            </div>
                         </div>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
-                                <strong>1 users</strong>
-                            </li>
-                            <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
-                                5GB storage
-                            </li>
-                            <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
-                                Unlimited public projects
-                            </li>
-                            <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
-                                Community access
-                            </li>
-                            <li class="mb-2 text-muted">
-                                <i class="bi bi-x"></i>
-                                Unlimited private projects
-                            </li>
-                            <li class="mb-2 text-muted">
-                                <i class="bi bi-x"></i>
-                                Dedicated support
-                            </li>
-                            <li class="mb-2 text-muted">
-                                <i class="bi bi-x"></i>
-                                Free linked domain
-                            </li>
-                            <li class="text-muted">
-                                <i class="bi bi-x"></i>
-                                Monthly status reports
-                            </li>
-                        </ul>
-                        <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="pricingTable green">
+                                <h3 class="title">Paquete Empresa</h3>
+                                <div class="price-value">
+                                    $59,999
+                                    <span class="month">/Semestre</span>
+                                </div>
+                                <ul class="pricing-content">
+                                    <li>50 llaves</li>
+                                    <li>Acceso instantaneo a plataforma</li>
+                                    <li>Estadisticas de su empresa</li>
+                                    <li>planes de salud</li>
+                                    <li>flexibilidad de asesoramiento</li>
+                                </ul>
+                                <a href="/auth/" class="pricingTable-signup"
+                                    >Contratar</a
+                                >
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <!-- Pricing card pro-->
-            <div class="col-lg-6 col-xl-4">
+            <!--             <div class="col-lg-6 col-xl-4">
                 <div class="card mb-5 mb-xl-0">
                     <div class="card-body p-5">
                         <div class="small text-uppercase fw-bold">
-                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning" />
                             Pro
                         </div>
                         <div class="mb-3">
@@ -101,90 +125,98 @@
                         </div>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 <strong>5 users</strong>
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 5GB storage
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Unlimited public projects
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Community access
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Unlimited private projects
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Dedicated support
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Free linked domain
                             </li>
                             <li class="text-muted">
-                                <i class="bi bi-x"></i>
+                                <i class="bi bi-x" />
                                 Monthly status reports
                             </li>
                         </ul>
-                        <div class="d-grid"><a class="btn btn-primary" href="#!">Choose plan</a></div>
+                        <div class="d-grid">
+                            <a class="btn btn-primary" href="#!">Choose plan</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Pricing card enterprise-->
-            <div class="col-lg-6 col-xl-4">
+            <!-- <div class="col-lg-6 col-xl-4">
                 <div class="card">
                     <div class="card-body p-5">
-                        <div class="small text-uppercase fw-bold text-muted">Enterprise</div>
+                        <div class="small text-uppercase fw-bold text-muted">
+                            Enterprise
+                        </div>
                         <div class="mb-3">
                             <span class="display-4 fw-bold">$49</span>
                             <span class="text-muted">/ mo.</span>
                         </div>
                         <ul class="list-unstyled mb-4">
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 <strong>Unlimited users</strong>
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 5GB storage
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Unlimited public projects
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Community access
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Unlimited private projects
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Dedicated support
                             </li>
                             <li class="mb-2">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 <strong>Unlimited</strong>
                                 linked domains
                             </li>
                             <li class="text-muted">
-                                <i class="bi bi-check text-primary"></i>
+                                <i class="bi bi-check text-primary" />
                                 Monthly status reports
                             </li>
                         </ul>
-                        <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Choose plan</a></div>
+                        <div class="d-grid">
+                            <a class="btn btn-outline-primary" href="#!"
+                                >Choose plan</a
+                            >
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -201,10 +233,21 @@
                 <div class="card mb-4">
                     <div class="card-body p-4">
                         <div class="d-flex">
-                            <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                            <div class="flex-shrink-0">
+                                <i
+                                    class="bi bi-chat-right-quote-fill text-primary fs-1"
+                                />
+                            </div>
                             <div class="ms-4">
-                                <p class="mb-1">Thank you for putting together such a great product. We loved working with you and the whole team, and we will be recommending you to others!</p>
-                                <div class="small text-muted">- Client Name, Location</div>
+                                <p class="mb-1">
+                                    Thank you for putting together such a great
+                                    product. We loved working with you and the
+                                    whole team, and we will be recommending you
+                                    to others!
+                                </p>
+                                <div class="small text-muted">
+                                    - Client Name, Location
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -213,10 +256,21 @@
                 <div class="card">
                     <div class="card-body p-4">
                         <div class="d-flex">
-                            <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                            <div class="flex-shrink-0">
+                                <i
+                                    class="bi bi-chat-right-quote-fill text-primary fs-1"
+                                />
+                            </div>
                             <div class="ms-4">
-                                <p class="mb-1">The whole team was a huge help with putting things together for our company and brand. We will be hiring them again in the near future for additional work!</p>
-                                <div class="small text-muted">- Client Name, Location</div>
+                                <p class="mb-1">
+                                    The whole team was a huge help with putting
+                                    things together for our company and brand.
+                                    We will be hiring them again in the near
+                                    future for additional work!
+                                </p>
+                                <div class="small text-muted">
+                                    - Client Name, Location
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -229,7 +283,11 @@
 <section class="bg-light py-5">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+            <div
+                class="feature bg-primary bg-gradient text-white rounded-3 mb-3"
+            >
+                <i class="bi bi-envelope" />
+            </div>
             <h2 class="fw-bolder">Get in touch</h2>
             <p class="lead mb-0">We'd love to hear from you</p>
         </div>
@@ -245,57 +303,341 @@
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <!-- Name input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                        <input
+                            class="form-control"
+                            id="name"
+                            type="text"
+                            placeholder="Enter your name..."
+                            data-sb-validations="required"
+                        />
                         <label for="name">Full name</label>
-                        <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        <div
+                            class="invalid-feedback"
+                            data-sb-feedback="name:required"
+                        >
+                            A name is required.
+                        </div>
                     </div>
                     <!-- Email address input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                        <input
+                            class="form-control"
+                            id="email"
+                            type="email"
+                            placeholder="name@example.com"
+                            data-sb-validations="required,email"
+                        />
                         <label for="email">Email address</label>
-                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        <div
+                            class="invalid-feedback"
+                            data-sb-feedback="email:required"
+                        >
+                            An email is required.
+                        </div>
+                        <div
+                            class="invalid-feedback"
+                            data-sb-feedback="email:email"
+                        >
+                            Email is not valid.
+                        </div>
                     </div>
                     <!-- Phone number input-->
                     <div class="form-floating mb-3">
-                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                        <input
+                            class="form-control"
+                            id="phone"
+                            type="tel"
+                            placeholder="(123) 456-7890"
+                            data-sb-validations="required"
+                        />
                         <label for="phone">Phone number</label>
-                        <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        <div
+                            class="invalid-feedback"
+                            data-sb-feedback="phone:required"
+                        >
+                            A phone number is required.
+                        </div>
                     </div>
                     <!-- Message input-->
                     <div class="form-floating mb-3">
-                        <textarea class="form-control" id="message"  placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            placeholder="Enter your message here..."
+                            style="height: 10rem"
+                            data-sb-validations="required"
+                        />
                         <label for="message">Message</label>
-                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        <div
+                            class="invalid-feedback"
+                            data-sb-feedback="message:required"
+                        >
+                            A message is required.
                         </div>
                     </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3">
+                            <div class="fw-bolder">
+                                Form submission successful!
+                            </div>
+                            To activate this form, sign up at
+                            <br />
+                            <a
+                                href="https://startbootstrap.com/solution/contact-forms"
+                                >https://startbootstrap.com/solution/contact-forms</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">
+                            Error sending message!
+                        </div>
+                    </div>
                     <!-- Submit Button-->
-                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                    <div class="d-grid">
+                        <button
+                            class="btn btn-primary btn-lg disabled"
+                            id="submitButton"
+                            type="submit">Submit</button
+                        >
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
-<!-- Bootstrap core JS-->
 
-<!-- Core theme JS-->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-<!-- * *                               SB Forms JS                               * *-->
-<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<style lang="css">
+    .demo {
+        background: #dedddb;
+        padding: 30px 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .pricingTable {
+        padding-bottom: 20px;
+        background: #fff;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        transition: all 0.3s ease 0s;
+    }
+
+    .pricingTable .title {
+        padding: 40px 20px 170px;
+        margin: 0 0 30px;
+        background: linear-gradient(to bottom right, #fa6fe6, #ffef65);
+        font-size: 30px;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .pricingTable .title:after,
+    .pricingTable .title:before {
+        content: "";
+        width: 280px;
+        height: 200px;
+        border-radius: 80px;
+        background: #fff;
+        position: absolute;
+        bottom: -175px;
+        left: -46px;
+        transform: rotate(-85deg);
+    }
+
+    .pricingTable .title:after {
+        border-radius: 100px;
+        bottom: auto;
+        top: 150px;
+        left: auto;
+        right: -70px;
+        transform: rotate(-40deg);
+    }
+
+    .pricingTable .price-value {
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        line-height: 65px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+        padding: 30px 0;
+        font-size: 35px;
+        font-weight: 600;
+        color: #404040;
+        position: absolute;
+        top: 110px;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: all 0.3s ease 0s;
+    }
+
+    .pricingTable:hover .price-value {
+        background: linear-gradient(to bottom, #fa6fe6, #ffef65);
+        color: #fff;
+    }
+
+    .pricingTable .month {
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 0;
+    }
+
+    .pricingTable .pricing-content {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+        text-align: left;
+        transition: all 0.3s ease 0s;
+    }
+
+    .pricingTable .pricing-content li {
+        padding: 7px 0 7px 50px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #000;
+        letter-spacing: 1px;
+        position: relative;
+    }
+
+    .pricingTable .pricing-content li:before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        width: 24px;
+        height: 24px;
+        line-height: 20px;
+        border-radius: 50%;
+        border: 2px solid #fb6ee5;
+        color: #fb6ee5;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+    }
+
+    .pricingTable .pricing-content li.disable {
+        color: #707070;
+    }
+
+    .pricingTable .pricing-content li.disable:before {
+        display: none;
+    }
+
+    .pricingTable .pricingTable-signup {
+        display: inline-block;
+        padding: 13px 45px;
+        border-radius: 30px;
+        background: linear-gradient(to right, #fa6fe6, #ffef65);
+        font-size: 22px;
+        font-weight: 700;
+        color: #404040;
+        text-transform: uppercase;
+        z-index: 1;
+        position: relative;
+        transition: all 0.3s ease 0s;
+    }
+
+    .pricingTable .pricingTable-signup:hover {
+        color: #fff;
+    }
+
+    .pricingTable .pricingTable-signup:before {
+        content: "";
+        width: 98%;
+        height: 92%;
+        border-radius: 30px;
+        background: #fff;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        z-index: -1;
+    }
+
+    .pricingTable .pricingTable-signup:hover:before {
+        background: 0 0;
+    }
+
+    .pricingTable.blue .title {
+        background: linear-gradient(to bottom right, #44f2b5, #4cbde2);
+    }
+
+    .pricingTable.blue:hover .price-value {
+        background: linear-gradient(to bottom, #44f2b5, #4cbde2);
+    }
+
+    .pricingTable.blue .pricing-content li:before {
+        border-color: #44f2b5;
+        color: #44f2b5;
+    }
+
+    .pricingTable.blue .pricingTable-signup {
+        background: linear-gradient(to bottom right, #44f2b5, #4cbde2);
+    }
+
+    .pricingTable.green .title {
+        background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
+    }
+
+    .pricingTable.green:hover .price-value {
+        background: linear-gradient(to bottom, #66fd9c, #f6fa60);
+    }
+
+    .pricingTable.green .pricing-content li:before {
+        border-color: #66fd9c;
+        color: #66fd9c;
+    }
+
+    .pricingTable.green .pricingTable-signup {
+        background: linear-gradient(to bottom right, #66fd9c, #f6fa60);
+    }
+
+    @media only screen and (max-width: 990px) {
+        .pricingTable6 {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .pricingTable6 .title:before {
+            height: 400px;
+            top: 100px;
+            left: 55px;
+        }
+
+        .pricingTable .title:after {
+            width: 550px;
+            height: 550px;
+            top: 150px;
+            right: -100px;
+            transform: rotate(-20deg);
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .pricingTable .title:after,
+        .pricingTable .title:before {
+            width: 280px;
+            height: 200px;
+            top: 220px;
+            left: -46px;
+        }
+
+        .pricingTable .title:after {
+            top: 150px;
+            left: auto;
+            right: -70px;
+        }
+    }
+</style>

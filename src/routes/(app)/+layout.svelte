@@ -3,7 +3,7 @@
   import Footer from "$lib/components/Footer.svelte";
   import { goto, invalidate } from "$app/navigation";
   import { onMount } from "svelte";
-    import Navbar from "$lib/components/Navbar.svelte";
+  import Navbar from "$lib/components/Navbar.svelte";
 
   export let data;
 
@@ -11,14 +11,18 @@
   $: ({ supabase, session } = data);
 
   onMount(() => {
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, _session) => {
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, _session) => {
       if (_session?.expires_at !== session?.expires_at) {
         invalidate("supabase:auth");
       }
     });
 
+    console.log(session);
+
     if (session) {
-      goto('/dashboard')
+      goto("/dashboard");
     }
 
     return () => subscription.unsubscribe();

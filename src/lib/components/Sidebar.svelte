@@ -1,3 +1,13 @@
+<script lang="ts">
+  import { goto } from "$app/navigation";
+  import { supabase } from "$lib/supabaseClient";
+
+  const handleSignOut = async () => {
+    await supabase.auth.signOut()
+    goto("/");
+  }
+</script>
+
 <div
   class="bg-body shadow d-flex flex-column flex-shrink-0 position-fixed top-0 bottom-0"
   style="width: 4.5rem;"
@@ -133,7 +143,7 @@
         href="/">Settings</a
       ><a class="dropdown-item" href="/">Profile</a>
       <div class="dropdown-divider" />
-      <a class="dropdown-item" href="/">Sign out</a>
+      <button class="dropdown-item" on:click={handleSignOut}>Sign out</button>
     </div>
   </div>
 </div>
