@@ -94,12 +94,10 @@
             <i class="fas fa-gem me-3" />Pazi
           </h6>
           <p>
-            Pazi es una plataforma que ofrece consejos nutricionales y apoyo
-            para la salud mental. Ofrecemos contenido gratuito, incluyendo
-            consejos generales y recursos de bienestar emocional. Para aquellos
-            que buscan ayuda más específica, ofrecemos planes alimenticios
-            personalizados y acceso a profesionales de la salud mental por una
-            tarifa razonable.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
+            quidem impedit, officia non omnis in et aspernatur error
+            reprehenderit, quaerat sed nisi aperiam optio doloribus accusamus
+            cupiditate praesentium est unde!
           </p>
         </div>
         <!-- Grid column -->
@@ -165,7 +163,7 @@
                 d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
               /></svg
             >
-            pazi.mind@gmail.com
+            lorem@ipsum.com
           </p>
           <p>
             <svg
@@ -197,7 +195,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2023 Copyright:
+    © 2024 Copyright:
   </div>
   <!-- Copyright -->
 </footer>

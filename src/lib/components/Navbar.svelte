@@ -4,8 +4,8 @@
       <img
         width="70"
         height="70"
-        src="/img/Pazi%20mindfit%20no%20bg.png"
-        alt="Pazi"
+        src=""
+        alt="aaa"
       />
     </a>
     <button
